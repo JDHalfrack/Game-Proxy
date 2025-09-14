@@ -1,6 +1,6 @@
 module.exports = async (req, res) => {
   try {
-    const response = await fetch("https://joshdixon.com/index.php?league=nfl");
+    const response = await fetch("https://pulsematch.xyz/index.php?league=nfl");
     const html = await response.text();
 
     // Debug: if the fetch came back empty
